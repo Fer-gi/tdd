@@ -1,7 +1,7 @@
 import express from "express";
 import cors from 'cors'
 import db from "./database/db.js"
-import bookRouter from './routes/routes.js'
+import bookRouter from './routes/bookRoutes.js'
 
 export const app = express()
 app.get('/', (_req, res) =>{

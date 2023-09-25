@@ -1,4 +1,4 @@
-import { Sequelize } from '@sequelize/core';
+import { Sequelize } from 'sequelize';
 
 const db = new Sequelize('books_app', 'root', '$oFiA1459', {
   host: 'localhost',
